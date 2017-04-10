@@ -1,2 +1,4 @@
 # beehive
-A simple beehive design with just CSS and HTML.
+A simple beehive design with CSS and HTML.
+
+[View demo](http://haodong.io/beehive/)
