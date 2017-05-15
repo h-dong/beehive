@@ -1,0 +1,59 @@
+.canvas {
+    display: flex;
+    flex-direction: column;
+    margin-top: 5%;
+}
+
+.hex {
+    float: left;
+    margin-right: -26px;
+    margin-bottom: -50px;
+}
+
+.hex .left {
+    float: left;
+    width: 0;
+    border-right: 30px solid #FFEB3B;
+    border-top: 52px solid transparent;
+    border-bottom: 52px solid transparent;
+}
+
+.hex .middle {
+    float: left;
+    width: 60px;
+    height: 104px;
+    background-color: #FFEB3B;
+}
+
+.hex .right {
+    float: left;
+    width: 0;
+    border-left: 30px solid #FFEB3B;
+    border-top: 52px solid transparent;
+    border-bottom: 52px solid transparent;
+}
+
+.hex:hover {
+    cursor: pointer;
+}
+
+.hex:hover .left {
+    border-right: 30px solid #FF9800;
+}
+
+.hex:hover .middle {
+    background: #FF9800;
+}
+
+.hex:hover .right {
+    border-left: 30px solid #FF9800;
+}
+
+.hex-row {
+    margin: auto;
+    clear: left;
+}
+
+.hex.even {
+    margin-top: 53px;
+}
